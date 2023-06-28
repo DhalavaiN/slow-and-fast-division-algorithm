@@ -1,0 +1,14 @@
+
+State Machine - |Rest_div|next_state
+Name next_state.RESTORE next_state.SUBTRACT next_state.SHIFT next_state.IDLE 
+next_state.IDLE 0 0 0 0 
+next_state.SHIFT 0 0 1 1 
+next_state.SUBTRACT 0 1 0 1 
+next_state.RESTORE 1 0 0 1 
+
+State Machine - |Rest_div|present_state
+Name present_state.RESTORE present_state.SUBTRACT present_state.SHIFT present_state.IDLE 
+present_state.IDLE 0 0 0 0 
+present_state.SHIFT 0 0 1 1 
+present_state.SUBTRACT 0 1 0 1 
+present_state.RESTORE 1 0 0 1 
